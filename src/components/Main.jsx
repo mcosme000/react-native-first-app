@@ -1,9 +1,11 @@
 import React from 'react'
-import { Text, View } from 'react-native'
+import { View } from 'react-native'
+import AppBar from './AppBar'
 
 const Main = () => {
   return (
-    <View>
+    <View style={{flexGrow: 1}}>
+      <AppBar />
     </View>
   )
 }

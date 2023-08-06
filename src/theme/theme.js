@@ -3,7 +3,8 @@ const theme = {
     primary: "#424242",
     secondary: "#3685B5",
     secondaryDark: "#061826",
-    background: "#d1d1d1",
+    background: "#f8f8f8",
+    white: "#ffffff",
   },
   fontSizes: {
     body: 14,
@@ -17,9 +18,22 @@ const theme = {
   fontWeight: {
     bold: "700"
   },
-  margin: {
-    titleMarginBottom: 5
-  }
+  marginTop: {
+    small: 5,
+    big: 10
+  },
+  marginRight: {
+    small: 5,
+    big: 10
+  },
+  marginBottom: {
+    small: 5,
+    big: 10
+  },
+  marginLeft: {
+    small: 5,
+    big: 10
+  },
 }
 
 export default theme

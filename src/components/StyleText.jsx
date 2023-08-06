@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
   },
   subheading: {
     fontSize: theme.fontSizes.subheading,
-    marginBottom: theme.margin.titleMarginBottom
+    marginBottom: theme.marginBottom.small
   },
   colorPrimary: {
     color: theme.colors.primary
@@ -22,11 +22,19 @@ const styles = StyleSheet.create({
     fontWeight: theme.fontWeight.bold
   },
   textSmall: {
-    fontSize: theme.fontSizes.small
+    fontSize: theme.fontSizes.small,
+    marginRight: theme.marginRight.big
+  },
+  tab: {
+    backgroundColor: theme.colors.secondary,
+    padding: 2,
+  },
+  align: {
+    alignItems: "center",
   }
 })
 
-export default function styledText ({children, subheading, colorPrimary, colorSecondary, bold, textSmall, ...restOfProps}) {
+export default function styledText ({children, subheading, colorPrimary, colorSecondary, bold, textSmall, tab, align, ...restOfProps}) {
   const textStyles = [
     styles.text,
     subheading && styles.subheading,
@@ -34,6 +42,8 @@ export default function styledText ({children, subheading, colorPrimary, colorSe
     colorPrimary && styles.colorPrimary,
     colorSecondary && styles.colorSecondary,
     textSmall && styles.textSmall,
+    tab && styles.tab,
+    align && styles.align
   ]
 
   return (
