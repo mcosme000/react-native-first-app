@@ -5,6 +5,12 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0a8c7aad-3670-4746-abe7-20e5610cd4ec"
+      }
+    },
+    "owner": "mcosme000"
   }
 }
