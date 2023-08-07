@@ -1,7 +1,5 @@
 import React from 'react'
 import { View, StyleSheet } from 'react-native'
-import StyledText from './StyleText'
-import theme from '../theme/theme.js'
 import RepositoryContent from './RepositoryContent'
 import RepositoryStats from './RepositoryStats'
 

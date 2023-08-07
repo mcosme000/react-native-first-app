@@ -1,8 +1,8 @@
 export default [
   {
     id: "mcosme.dev",
-    fullName: "mcosme000/mcosme.dev",
-    description: "Developer news blog",
+    fullName: "mcosme00008/mcosme.dev",
+    description: "Developer news blog, amazing developer news blog",
     language: "HTML",
     forksCount: 3123,
     stargazersCount: 500,
@@ -46,7 +46,7 @@ export default [
   {
     id: "cameravida.dev",
     fullName: "camera/tearshate.dev",
-    description: "Build froms in React without the tears",
+    description: "Build froms in React without the tears, be the STRONGEST among the developers",
     language: "TypeScript",
     forksCount: 176089,
     stargazersCount: 2570,
@@ -68,7 +68,7 @@ export default [
   {
     id: "mcosmenn.dev",
     fullName: "mcosme000/mcosme.dev",
-    description: "Developer news blog",
+    description: "Developer news blog, more news but with an amazing format",
     language: "HTML",
     forksCount: 3123,
     stargazersCount: 500,

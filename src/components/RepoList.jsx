@@ -7,6 +7,7 @@ const RepoList = () => {
 
   const listStyles = {
     padding: 20,
+    backgroundColor: "white",
   }
 
   return (
