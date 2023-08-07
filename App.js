@@ -1,14 +1,11 @@
 import React from 'react';
-import { View } from 'react-native';
-import Constants from 'expo-constants'
 import Main from './src/components/Main';
-import RepoList from './src/components/RepoList';
+import { NativeRouter } from 'react-router-native';
 
 export default function App() {
   return (
-    <View style={{marginTop: Constants.statusBarHeight, padding: "10px"}}>
+    <NativeRouter>
       <Main />
-      <RepoList />
-    </View>
+    </NativeRouter>
   );
 }
